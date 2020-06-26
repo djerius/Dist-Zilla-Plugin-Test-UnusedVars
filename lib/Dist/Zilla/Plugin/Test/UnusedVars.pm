@@ -3,6 +3,9 @@ use strict;
 use warnings;
 
 package Dist::Zilla::Plugin::Test::UnusedVars;
+
+use constant ALT => 'CXC';
+
 # ABSTRACT: Release tests for unused variables
 # VERSION
 use Path::Tiny;
